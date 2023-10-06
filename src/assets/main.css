@@ -1,0 +1,61 @@
+@import './colors.css';
+
+@import url('https://fonts.google.com/specimen/Overpass');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+#app {
+  max-width: 1440px;
+  min-width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Overpass;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+  margin: 0;
+  max-width: 375px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  color: var(--Medium-Grey);
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 440px) {
+  body {
+    max-width: unset;
+    display: flex;
+    place-items: center;
+    height: 99vh;
+    margin: 0;
+  }
+
+  #app {
+    display: flex;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js,vue,css",
+  "exec": "bun run dev",
+  "verbose": true
+}

@@ -26,3 +26,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# do you need a bun?
+bun.lockb
+*.lock
